@@ -1,4 +1,3 @@
-# Interview_Preparation_Ai_App
 # 🎙️ InterviewPrep AI
 
 *Master your next interview with AI*
@@ -23,7 +22,7 @@ wanting realistic, low-pressure spoken practice.
 
 ### b. Live URL
 
-🔗 **[interviewpreprataionai.netlify.app](https://interviewpreprataionai.netlify.app/)**
+🔗 **[interview-preparation-ai-diriux8m6-self-b0ee.vercel.app](https://interview-preparation-ai-diriux8m6-self-b0ee.vercel.app/)**
 
 > Best experienced in **Chrome or Edge** — voice recognition (Web Speech API) isn't supported in
 > Safari or Firefox; the app detects this and tells you gracefully instead of failing silently.
@@ -33,7 +32,7 @@ wanting realistic, low-pressure spoken practice.
 ### c. Features
 
 **Dashboard**
-- Hero card — "Welcome back, Candidate" with a live interview-confidence percentage and agit init
+- Hero card — "Welcome back, Candidate" with a live interview-confidence percentage and a
   one-click **Start Practice** button, plus a **Configure Interview** shortcut
 - Metrics row — Practice Sessions completed, Average Score (with trend indicator), and total
   Hours Practiced, all pulled live from saved session data
@@ -94,7 +93,7 @@ This logic lives in `src/lib/voice.ts` (speech synthesis/recognition + auto-retr
 | Frontend | Vite + React + TypeScript |
 | Voice AI | Browser-native Web Speech API — `SpeechSynthesis` (text-to-speech) and `SpeechRecognition` (speech-to-text) |
 | Data persistence | Bolt Database (stores practice sessions, powers live Dashboard metrics) |
-| Hosting | Netlify |
+| Hosting | Vercel |
 | Version control | Git + GitHub |
 
 ---
@@ -102,13 +101,15 @@ This logic lives in `src/lib/voice.ts` (speech synthesis/recognition + auto-retr
 ### f. Screenshots
 
 **Dashboard — session metrics and confidence tracking**
-![Dashboard](screenshots/1-dashboard.png)
+<img width="1366" height="768" alt="sana dash" src="https://github.com/user-attachments/assets/e6f701a3-38f6-45b1-a6bb-147841b3a8cf" />
 
 **Interview Setup — role, difficulty, and question count**
-![Interview Setup](screenshots/2-interview-setup.png)
+<img width="1366" height="768" alt="sana dash 2" src="https://github.com/user-attachments/assets/6a6ae4e2-847e-489e-bde6-14574984e30d" />
+
 
 **Live Practice — voice-to-voice question, live transcription, instant scoring**
-![Live Practice](screenshots/3-live-practice.png)
+<img width="1366" height="768" alt="sana 1" src="https://github.com/user-attachments/assets/9684a714-3ae4-4b06-b050-143397c49315" />
+
 
 ---
 
@@ -135,5 +136,5 @@ Then run:
 npm run dev
 ```
 
-**Live version:** just open [interviewpreprataionai.netlify.app](https://interviewpreprataionai.netlify.app/)
+**Live version:** just open [interview-preparation-ai-diriux8m6-self-b0ee.vercel.app](https://interview-preparation-ai-diriux8m6-self-b0ee.vercel.app/)
 in Chrome or Edge, allow microphone access when prompted, and click **Start Practice**.
