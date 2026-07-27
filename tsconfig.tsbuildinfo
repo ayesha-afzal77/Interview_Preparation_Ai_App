@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Dashboard.tsx","./src/components/Header.tsx","./src/components/InterviewSetup.tsx","./src/components/LivePractice.tsx","./src/lib/evaluate.ts","./src/lib/questions.ts","./src/lib/supabase.ts","./src/lib/voice.ts"],"version":"5.9.3"}
