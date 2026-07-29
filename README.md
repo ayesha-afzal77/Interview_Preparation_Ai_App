@@ -101,13 +101,16 @@ This logic lives in `src/lib/voice.ts` (speech synthesis/recognition + auto-retr
 ### f. Screenshots
 
 **Dashboard — session metrics and confidence tracking**
-![Dashboard](screenshots/1-dashboard.png)
+<img width="1366" height="768" alt="sana dash" src="https://github.com/user-attachments/assets/505bc584-da1a-406d-acb2-8c47d3f21a9d" />
 
 **Interview Setup — role, difficulty, and question count**
-![Interview Setup](screenshots/2-interview-setup.png)
+
+<img width="1366" height="768" alt="sana dash 2" src="https://github.com/user-attachments/assets/795ee6c7-1f53-4f8e-bb28-49fa5df746c1" />
+
 
 **Live Practice — voice-to-voice question, live transcription, instant scoring**
-![Live Practice](screenshots/3-live-practice.png)
+<img width="1366" height="768" alt="sana 1" src="https://github.com/user-attachments/assets/e4b956bd-e465-4aee-a6e1-0afe856b0c87" />
+
 
 ---
 
