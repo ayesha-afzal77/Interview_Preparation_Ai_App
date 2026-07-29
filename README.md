@@ -22,7 +22,7 @@ wanting realistic, low-pressure spoken practice.
 
 ### b. Live URL
 
-🔗 **[interview-preparation-ai-diriux8m6-self-b0ee.vercel.app](https://interview-preparation-ai-diriux8m6-self-b0ee.vercel.app/)**
+🔗 **[interview-preparation-ai-app-4.vercel.app](https://interview-preparation-ai-app-4.vercel.app/)**
 
 > Best experienced in **Chrome or Edge** — voice recognition (Web Speech API) isn't supported in
 > Safari or Firefox; the app detects this and tells you gracefully instead of failing silently.
@@ -101,15 +101,13 @@ This logic lives in `src/lib/voice.ts` (speech synthesis/recognition + auto-retr
 ### f. Screenshots
 
 **Dashboard — session metrics and confidence tracking**
-<img width="1366" height="768" alt="sana dash" src="https://github.com/user-attachments/assets/e6f701a3-38f6-45b1-a6bb-147841b3a8cf" />
+![Dashboard](screenshots/1-dashboard.png)
 
 **Interview Setup — role, difficulty, and question count**
-<img width="1366" height="768" alt="sana dash 2" src="https://github.com/user-attachments/assets/6a6ae4e2-847e-489e-bde6-14574984e30d" />
-
+![Interview Setup](screenshots/2-interview-setup.png)
 
 **Live Practice — voice-to-voice question, live transcription, instant scoring**
-<img width="1366" height="768" alt="sana 1" src="https://github.com/user-attachments/assets/9684a714-3ae4-4b06-b050-143397c49315" />
-
+![Live Practice](screenshots/3-live-practice.png)
 
 ---
 
@@ -136,5 +134,5 @@ Then run:
 npm run dev
 ```
 
-**Live version:** just open [interview-preparation-ai-diriux8m6-self-b0ee.vercel.app](https://interview-preparation-ai-diriux8m6-self-b0ee.vercel.app/)
+**Live version:** just open [interview-preparation-ai-app-4.vercel.app](https://interview-preparation-ai-app-4.vercel.app/)
 in Chrome or Edge, allow microphone access when prompted, and click **Start Practice**.
