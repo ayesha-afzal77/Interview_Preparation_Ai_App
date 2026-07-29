@@ -3,6 +3,8 @@ import Header, { type View } from './components/Header';
 import Dashboard from './components/Dashboard';
 import InterviewSetup, { type SetupConfig } from './components/InterviewSetup';
 import LivePractice from './components/LivePractice';
+ 
+ 
 
 export default function App() {
   const [view, setView] = useState<View>('dashboard');
